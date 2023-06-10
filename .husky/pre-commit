@@ -2,3 +2,10 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged
+
+# Check to see if build is complete
+if git diff --cached --name-only | grep -qE '\.(ts|tsx)$'
+then
+  echo "\nTypeScript files have changed. Running build..."
+  yarn build
+fi

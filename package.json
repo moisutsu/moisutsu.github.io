@@ -40,16 +40,10 @@
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "**/*.{ts,tsx}": [
       "yarn lint:fix",
-      "yarn typecheck",
-      "yarn build"
+      "yarn typecheck"
     ],
     "**/*.{js,jsx,ts,tsx,json,css,scss}": "yarn format"
   }
