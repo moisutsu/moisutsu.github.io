@@ -1,5 +1,4 @@
 import "@/styles/tailwind.css";
-import "@/styles/global.scss";
 import "sanitize.css";
 
 import Footer from "@/layouts/Footer";
