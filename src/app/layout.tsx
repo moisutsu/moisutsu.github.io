@@ -1,3 +1,10 @@
+import "@/styles/tailwind.css";
+import "@/styles/global.scss";
+import "sanitize.css";
+
+import Footer from "@/layouts/Footer";
+import Header from "@/layouts/Header";
+
 export const metadata = {
   title: "Portfolio",
   description: "Jun Hirako's portfolio",
@@ -6,7 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='ja'>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

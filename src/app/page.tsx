@@ -1,5 +1,5 @@
-const Component = () => {
-  return <main>Hello, world!</main>;
+const Page = function () {
+  return <main>main</main>;
 };
 
-export default Component;
+export default Page;
