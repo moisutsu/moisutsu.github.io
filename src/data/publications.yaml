@@ -1,0 +1,21 @@
+peerReviewed:
+  - title: Example Peer-Reviewed Paper
+    authors: Jun Hirako, Jane Doe, John Smith
+    venue: Proceedings of the Example Conference
+    links:
+      - label: Paper
+        url: https://example.com/paper
+preprints:
+  - title: Example Preprint
+    authors: Jun Hirako
+    venue: arXiv
+    links:
+      - label: Preprint
+        url: https://example.com/preprint
+other:
+  - title: Example Technical Article
+    authors: Jun Hirako
+    venue: Personal website
+    links:
+      - label: Article
+        url: https://example.com/article

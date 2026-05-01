@@ -1,0 +1,11 @@
+links:
+  - label: GitHub
+    url: https://github.com/moisutsu
+  - label: Google Scholar
+    url: https://example.com/scholar
+  - label: ORCID
+    url: https://example.com/orcid
+  - label: LinkedIn
+    url: https://example.com/linkedin
+  - label: Email
+    url: mailto:jun@example.com
