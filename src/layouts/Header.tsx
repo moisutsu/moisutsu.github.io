@@ -8,13 +8,13 @@ const Header = function () {
         <nav aria-label='Primary navigation'>
           <ul className='flex flex-wrap gap-x-5 gap-y-2 text-sm text-stone-600'>
             <li>
-              <a className='transition-colors hover:text-stone-950' href='#publications'>
-                Publications
+              <a className='transition-colors hover:text-stone-950' href='#experience'>
+                Experience
               </a>
             </li>
             <li>
-              <a className='transition-colors hover:text-stone-950' href='#experience'>
-                Experience
+              <a className='transition-colors hover:text-stone-950' href='#publications'>
+                Publications
               </a>
             </li>
             <li>

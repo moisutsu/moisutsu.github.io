@@ -45,13 +45,15 @@ const CareerList = function ({ items }: { items: CareerItem[] }) {
       {items.map((item) => (
         <li
           key={`${item.role}-${item.organization}-${item.start}`}
-          className='border-l border-stone-200 pl-4'
+          className='border-t border-stone-200 pt-4'
         >
-          <h4 className='font-medium text-stone-950'>{item.role}</h4>
-          <p className='text-sm text-stone-600'>{item.organization}</p>
-          <p className='text-sm text-stone-500'>
-            {item.start} - {item.end}
-          </p>
+          <div className='flex flex-col gap-1'>
+            <h4 className='font-medium text-stone-950'>{item.organization}</h4>
+            <p className='text-sm text-stone-600'>{item.role}</p>
+            <p className='text-sm text-stone-600'>
+              {item.start} - {item.end}
+            </p>
+          </div>
         </li>
       ))}
     </ol>
@@ -62,15 +64,13 @@ const EducationList = function ({ items }: { items: EducationItem[] }) {
   return (
     <ol className='space-y-5'>
       {items.map((item) => (
-        <li
-          key={`${item.degree}-${item.institution}-${item.start}`}
-          className='border-l border-stone-200 pl-4'
-        >
-          <h4 className='font-medium text-stone-950'>{item.degree}</h4>
-          <p className='text-sm text-stone-600'>{item.institution}</p>
-          <p className='text-sm text-stone-500'>
-            {item.start} - {item.end}
-          </p>
+        <li key={`${item.institution}-${item.start}`} className='border-t border-stone-200 pt-4'>
+          <div className='flex flex-col gap-1'>
+            <h4 className='font-medium text-stone-950'>{item.institution}</h4>
+            <p className='text-sm text-stone-600'>
+              {item.start} - {item.end}
+            </p>
+          </div>
         </li>
       ))}
     </ol>
@@ -81,9 +81,12 @@ const AwardList = function ({ items }: { items: AwardItem[] }) {
   return (
     <ol className='space-y-5'>
       {items.map((item) => (
-        <li key={`${item.title}-${item.organization}`} className='border-l border-stone-200 pl-4'>
-          <h4 className='font-medium text-stone-950'>{item.title}</h4>
-          <p className='text-sm text-stone-600'>{item.organization}</p>
+        <li key={item.title} className='border-t border-stone-200 pt-4'>
+          <div className='flex flex-col gap-1'>
+            <h4 className='font-medium text-stone-950'>{item.title}</h4>
+            {item.subtitle ? <p className='text-sm text-stone-600'>{item.subtitle}</p> : null}
+            {item.links?.length ? <InlineLinks links={item.links} /> : null}
+          </div>
         </li>
       ))}
     </ol>
@@ -127,20 +130,6 @@ const Page = function () {
           </div>
         </section>
 
-        <section id='publications' className='border-b border-stone-200 py-12'>
-          <div className='grid gap-8 lg:grid-cols-[180px_1fr]'>
-            <h2 className={sectionTitleClass}>Publications</h2>
-            <div className='space-y-10'>
-              <PublicationList
-                title='Peer-reviewed papers'
-                publications={publications.peerReviewed}
-              />
-              <PublicationList title='Preprints' publications={publications.preprints} />
-              <PublicationList title='Other publications' publications={publications.other} />
-            </div>
-          </div>
-        </section>
-
         <section id='experience' className='border-b border-stone-200 py-12'>
           <div className='grid gap-8 lg:grid-cols-[180px_1fr]'>
             <h2 className={sectionTitleClass}>Experience</h2>
@@ -157,6 +146,23 @@ const Page = function () {
                 <h3 className={subsectionTitleClass}>Awards</h3>
                 <AwardList items={experience.awards} />
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section id='publications' className='border-b border-stone-200 py-12'>
+          <div className='grid gap-8 lg:grid-cols-[180px_1fr]'>
+            <h2 className={sectionTitleClass}>Publications</h2>
+            <div className='space-y-10'>
+              <PublicationList
+                title='Peer-reviewed papers'
+                publications={publications.peerReviewed}
+              />
+              <PublicationList
+                title='Non-peer-reviewed papers'
+                publications={publications.preprints}
+              />
+              <PublicationList title='Other publications' publications={publications.other} />
             </div>
           </div>
         </section>

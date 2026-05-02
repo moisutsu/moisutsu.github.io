@@ -1,21 +1,93 @@
 peerReviewed:
-  - title: Example Peer-Reviewed Paper
-    authors: Jun Hirako, Jane Doe, John Smith
-    venue: Proceedings of the Example Conference
+  - title: Search Query Embeddings via User-behavior-driven Contrastive Learning
+    authors: Sosuke Nishikawa, Jun Hirako, Nobuhiro Kaji, Koki Watanabe, Hiroki Asano, Souta Yamashiro, Shumpei Sano
+    venue: "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: Industry Track) (NAACL 2025 Industry Track)"
     links:
-      - label: Paper
-        url: https://example.com/paper
+      - label: Link
+        url: https://aclanthology.org/2025.naacl-industry.12/
+  - title: 最新論文に適用可能な被引用数予測
+    authors: 平子 潤, 笹野 遼平, 武田 浩一
+    venue: 人工知能学会論文誌39巻5号
+    links:
+      - label: Link
+        url: https://www.jstage.jst.go.jp/article/tjsai/39/5/39_39-5_B-O11/_article/-char/ja/
+  - title: Realistic Citation Count Prediction Task for Newly Published Papers
+    authors: Jun Hirako, Ryohei Sasano, Koichi Takeda
+    venue: "Findings of the Association for Computational Linguistics: EACL 2023 (Findings of EACL 2023)"
+    links:
+      - label: Link
+        url: https://aclanthology.org/2023.findings-eacl.84/
+  - title: Research impact analysis of international funding agencies in the realm of allergy and immunology
+    authors: Takeya Adachi, Yasushi Ogawa, Tamami Fukushi, Kei Ito, Amane Koizumi, Masashi Shirabe, Masako Toriya, Jun Hirako, Takenori Inomata, Katsunori Masaki, Ryohei Sasano, Sakura Sato, Keigo Kainuma, Masaki Futamura, Keiko Kan-o, Yosuke Kurashima, Saeko Nakajima, Masafumi Sakashita, Hideaki Morita, Aikichi Iwamoto, Sankei Nishima, Mayumi Tamari, Hajime Iizuka
+    venue: "Allergy: European Journal of Allergy and Clinical Immunology (Allergy)"
+    links:
+      - label: Link
+        url: https://doi.org/10.1111/all.15249
 preprints:
-  - title: Example Preprint
-    authors: Jun Hirako
-    venue: arXiv
+  - title: ブラックボックスな検索エンジンに対するクエリ拡張に特化したSLMの強化学習
+    authors: 福地 成彦, 平子 潤, 梅本 和俊
+    venue: 第18回データ工学と情報マネジメントに関するフォーラム (DEIM 2026)
     links:
-      - label: Preprint
-        url: https://example.com/preprint
+      - label: Link
+        url: https://pub.confit.atlas.jp/ja/event/deim2026/presentation/1F-05
+  - title: ユーザ行動ログに基づくクエリ理解のための検索クエリ埋め込み
+    authors: 西川 荘介, 平子 潤, 鍜治 伸裕, 渡邉 幸暉, 浅野 広樹, 山城 颯太, 佐野 峻平
+    venue: 言語処理学会第31回年次大会 (NLP 2025)
+    links:
+      - label: Link
+        url: https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/P8-17.pdf
+  - title: 検索クリックログに基づくクエリ理解に特化した埋め込み
+    authors: 西川 荘介, 平子 潤, 佐野 峻平, 浅野 広樹, 渡邉 幸暉, 山城 颯太, 鍜治 伸裕
+    venue: 第19回YANSシンポジウム (YANS 2024)
+    links:
+      - label: Link
+        url: https://yans.anlp.jp/?page=1741581649
+  - title: "CiMaTe: Citation Count Prediction Effectively Leveraging the Main Text"
+    authors: Jun Hirako, Ryohei Sasano, Koichi Takeda
+    venue: arXiv preprint (arXiv)
+    links:
+      - label: Link
+        url: https://arxiv.org/abs/2410.04404
+  - title: 論文の階層構造を活用した被引用数予測
+    authors: 平子 潤, 笹野 遼平, 武田 浩一
+    venue: 言語処理学会第29回年次大会 (NLP 2023)
+    links:
+      - label: Link
+        url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/P7-10.pdf
+  - title: 転移学習における強化学習を用いた効率的なトークナイザとモデルの同時学習
+    authors: 平子 潤, 柴田 知秀
+    venue: 言語処理学会第29回年次大会 (NLP 2023)
+    links:
+      - label: Link
+        url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q6-4.pdf
+  - title: 直近1年の動向を考慮した最新論文のインパクト予測
+    authors: 平子 潤, 笹野 遼平, 武田 浩一
+    venue: 言語処理学会第28回年次大会 (NLP 2022)
+    links:
+      - label: Link
+        url: https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/A6-5.pdf
+  - title: 静的な単語埋め込みによるカタカナ語を対象としたBERTの語彙拡張
+    authors: 平子 潤, 笹野 遼平, 武田 浩一
+    venue: 言語処理学会第27回年次大会 (NLP 2021)
+    links:
+      - label: Link
+        url: https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P4-11.pdf
 other:
-  - title: Example Technical Article
-    authors: Jun Hirako
-    venue: Personal website
+  - title: DEIM2026参加報告
+    authors: 福地 成彦, 董 于洋, 梅本 和俊, 平子 潤, 新田 洸平
+    venue: SB Intuitions TECH BLOG
     links:
-      - label: Article
-        url: https://example.com/article
+      - label: Link
+        url: https://www.sbintuitions.co.jp/blog/entry/2026/03/19/161848
+  - title: StaticEmbeddingを用いた高速な検索クエリ埋め込み
+    authors: 平子 潤
+    venue: LINEヤフー Tech Blog
+    links:
+      - label: Link
+        url: https://techblog.lycorp.co.jp/ja/20250804a
+  - title: BERTによるテキスト分類チュートリアル
+    authors: 塚越 駿, 平子 潤
+    venue: 自然言語処理30巻2号 学会記事
+    links:
+      - label: Link
+        url: https://www.jstage.jst.go.jp/article/jnlp/30/2/30_867/_article/-char/ja/

@@ -2,10 +2,10 @@ links:
   - label: GitHub
     url: https://github.com/moisutsu
   - label: Google Scholar
-    url: https://example.com/scholar
-  - label: ORCID
-    url: https://example.com/orcid
-  - label: LinkedIn
-    url: https://example.com/linkedin
-  - label: Email
-    url: mailto:jun@example.com
+    url: https://scholar.google.com/citations?user=x4r5aXkAAAAJ&hl=ja
+  - label: X
+    url: https://x.com/moisutsu
+  - label: Zenn
+    url: https://zenn.dev/moisutsu
+  - label: Qiita
+    url: https://qiita.com/moisutsu

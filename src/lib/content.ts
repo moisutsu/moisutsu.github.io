@@ -38,7 +38,6 @@ type CareerItem = {
 };
 
 type EducationItem = {
-  degree: string;
   institution: string;
   start: string;
   end: string;
@@ -46,7 +45,8 @@ type EducationItem = {
 
 type AwardItem = {
   title: string;
-  organization: string;
+  subtitle?: string;
+  links?: Link[];
 };
 
 type Experience = {
