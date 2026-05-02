@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css,md,yml,yaml}'",
     "typecheck": "tsc -p . --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "js-yaml": "^4.1.1",
@@ -26,28 +26,17 @@
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.59.1",
-    "@typescript-eslint/parser": "^8.59.1",
-    "autoprefixer": "^10.5.0",
-    "eslint": "^9.39.0",
+    "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "postcss": "^8.5.12",
     "prettier": "^3.8.3",
-    "sass": "^1.99.0",
     "tailwindcss": "^4.2.4",
     "typescript": "^6.0.3"
-  },
-  "lint-staged": {
-    "**/*.{ts,tsx}": [
-      "yarn lint:fix",
-      "yarn typecheck"
-    ],
-    "**/*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml}": "yarn format"
   }
 }
