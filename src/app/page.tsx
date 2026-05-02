@@ -155,14 +155,14 @@ const Page = function () {
             <h2 className={sectionTitleClass}>Publications</h2>
             <div className='space-y-10'>
               <PublicationList
-                title='Peer-reviewed papers'
+                title='Peer-Reviewed Papers'
                 publications={publications.peerReviewed}
               />
               <PublicationList
-                title='Non-peer-reviewed papers'
+                title='Non-Peer-Reviewed Papers'
                 publications={publications.preprints}
               />
-              <PublicationList title='Other publications' publications={publications.other} />
+              <PublicationList title='Other Publications' publications={publications.other} />
             </div>
           </div>
         </section>
