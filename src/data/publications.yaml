@@ -19,7 +19,7 @@ peerReviewed:
         url: https://aclanthology.org/2023.findings-eacl.84/
   - title: Research impact analysis of international funding agencies in the realm of allergy and immunology
     authors: Takeya Adachi, Yasushi Ogawa, Tamami Fukushi, Kei Ito, Amane Koizumi, Masashi Shirabe, Masako Toriya, Jun Hirako, Takenori Inomata, Katsunori Masaki, Ryohei Sasano, Sakura Sato, Keigo Kainuma, Masaki Futamura, Keiko Kan-o, Yosuke Kurashima, Saeko Nakajima, Masafumi Sakashita, Hideaki Morita, Aikichi Iwamoto, Sankei Nishima, Mayumi Tamari, Hajime Iizuka
-    venue: "Allergy: European Journal of Allergy and Clinical Immunology (Allergy)"
+    venue: "Allergy: European Journal of Allergy and Clinical Immunology, Volume 77, Issue 5"
     links:
       - label: Link
         url: https://doi.org/10.1111/all.15249
@@ -60,6 +60,12 @@ preprints:
     links:
       - label: Link
         url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q6-4.pdf
+  - title: 厚み指標と自然言語処理を用いた皮膚・アレルギー領域の多元的研究インパクト解析
+    authors: 足立 剛也, 小川 靖, 鳥谷 真佐子, 福士 珠美, 平子 潤, 調 麻佐志, 小泉 周
+    venue: 研究・イノベーション学会第37回年次学術大会 (2022)
+    links:
+      - label: Link
+        url: https://dspace.jaist.ac.jp/dspace/bitstream/10119/18692/1/kouen37_172.pdf
   - title: 直近1年の動向を考慮した最新論文のインパクト予測
     authors: 平子 潤, 笹野 遼平, 武田 浩一
     venue: 言語処理学会第28回年次大会 (NLP 2022)
