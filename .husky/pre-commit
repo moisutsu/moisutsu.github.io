@@ -1,7 +1,4 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-npx lint-staged
+yarn lint-staged
 
 # Check to see if build is complete
 if git diff --cached --name-only | grep -qE '\.(ts|tsx)$'
