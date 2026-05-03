@@ -20,5 +20,11 @@ body {
 }
 
 section {
-  scroll-margin-top: 2rem;
+  scroll-margin-top: 8rem;
+}
+
+@media (min-width: 640px) {
+  section {
+    scroll-margin-top: 6rem;
+  }
 }
