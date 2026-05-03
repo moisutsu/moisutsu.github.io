@@ -1,6 +1,6 @@
 const Header = function () {
   return (
-    <header className='border-b border-stone-200 bg-white'>
+    <header className='sticky top-0 z-50 border-b border-stone-200 bg-white'>
       <div className='mx-auto flex max-w-5xl flex-col gap-4 px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-8'>
         <a className='text-lg font-semibold tracking-normal text-stone-950' href='#top'>
           Jun Hirako
