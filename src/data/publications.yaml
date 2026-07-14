@@ -86,7 +86,7 @@ other:
       - label: Link
         url: https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000
   - title: "J-tau: A Japanese tau-bench for Benchmarking Tool-Agent-User Interaction in Real-World Domains"
-    authors: Chihiro, Yano and Jun, Hirako and Ryota, Hirobuchi
+    authors: Chihiro Yano, Jun Hirako, Ryota Hirobuchi
     venue: GitHub
     links:
       - label: Link
