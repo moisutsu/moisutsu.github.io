@@ -79,6 +79,18 @@ preprints:
       - label: Link
         url: https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P4-11.pdf
 other:
+  - title: "Sarashina3 mini / Sarashina3 nano: フルスクラッチで開発した最新の国産LLM"
+    authors: Yuyang Dong, 廣淵亮太, 平子潤
+    venue: SB Intuitions TECH BLOG
+    links:
+      - label: Link
+        url: https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000
+  - title: "J-tau: A Japanese tau-bench for Benchmarking Tool-Agent-User Interaction in Real-World Domains"
+    authors: Chihiro, Yano and Jun, Hirako and Ryota, Hirobuchi
+    venue: GitHub
+    links:
+      - label: Link
+        url: https://github.com/sbintuitions/j-tau-bench
   - title: DEIM2026参加報告
     authors: 福地 成彦, 董 于洋, 梅本 和俊, 平子 潤, 新田 洸平
     venue: SB Intuitions TECH BLOG
